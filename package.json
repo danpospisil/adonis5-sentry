@@ -14,6 +14,7 @@
     "lint": "eslint . --ext=.ts --fix",
     "format": "prettier --write .",
     "commit": "git-cz",
+		"prepare": "npm run compile",
     "release": "np",
     "version": "npm run build",
     "run-prettier": "prettier --write .",
